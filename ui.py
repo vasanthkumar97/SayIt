@@ -8,10 +8,8 @@ class SimpleExample1(BaseWidget):
         super(SimpleExample1,self).__init__('Simple example 1')
 
         #Definition of the forms fields
-        self._firstname     = ControlText('First name', 'Default value')
-        self._middlename    = ControlText('Middle name')
-        self._lastname      = ControlText('Lastname name')
-        self._fullname      = ControlText('Full name')
+        self._firstname     = ControlText('Senetence', 'Default value')
+
         self._button        = ControlButton('Press this button')
 
 
