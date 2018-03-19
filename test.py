@@ -7,4 +7,5 @@ def test():
     text = word_tokenize("And now for something completely different")
     print nltk.pos_tag(text)
 
-test()
+if __name__=="__main__":
+    test()
